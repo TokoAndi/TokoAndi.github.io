@@ -1,0 +1,23 @@
+function validateNumber(input) {
+  const minLength = 12;
+  const number = input.value;
+
+  if (number.length < minLength) {
+    input.setCustomValidity(`Nomor harus lebih dari ${minLength} angka.`);
+  } else {
+    input.setCustomValidity("");
+  }
+}
+
+function validateMessageFunction(input) {
+  const minLength = 10;
+  const text = input.value;
+
+  if (text.length < minLength) {
+    input.setCustomValidity(
+      `Mohon masukkan pesan anda lebih dari ${minLength} huruf.`
+    );
+  } else {
+    input.setCustomValidity("");
+  }
+}
