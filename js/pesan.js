@@ -21,3 +21,19 @@ function validateMessageFunction(input) {
     input.setCustomValidity("");
   }
 }
+
+function toggleFullScreen() {
+  const card = document.querySelector(".card");
+  const fullButton = document.querySelector(".full-button");
+  if (!document.fullscreenElement) {
+    card.requestFullscreen().catch((err) => {
+      alert(
+        `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
+      );
+    });
+    fullButton.textContent = "Exit";
+  } else {
+    document.exitFullscreen();
+    fullButton.textContent = "Full";
+  }
+}
