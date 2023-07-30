@@ -7,17 +7,23 @@ a {
 }
 
 .et-hero-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
   text-align: center;
   padding: 0 2em;
-}
-.et-hero-tabs {
   background-image: url("assets/home.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -38,7 +44,12 @@ a {
 }
 
 .et-hero-tabs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   position: absolute;
   bottom: 0;
@@ -57,12 +68,21 @@ a {
 }
 
 .et-hero-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
   color: #000;
   letter-spacing: 0.1rem;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-size: 0.8rem;
 }
