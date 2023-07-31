@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <link rel="Website Icon" type="png" href="../assets/Website Icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,9 +45,27 @@
           transform: translateY(-100%);
         }
       }
+      .button {
+        display: inline;
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        width: calc(50% - 5px);
+        border: none;
+      }
+
+      .button:hover {
+        background-color: #0056b3;
+      }
     </style>
   </head>
   <body>
+    <div class="kembali">
+      <a href="../index.html"><div class="button">Kembali</div></a>
+    </div>
     <div class="container">
       <div class="text">
         <h1>Syarat & Ketentuan Toko Andi</h1>
