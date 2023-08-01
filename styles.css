@@ -105,6 +105,8 @@ a {
 /* Untuk home start */
 #home {
   background-image: url(assets/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px 0;
   font-family: "Lato" sans-serif;
 }
