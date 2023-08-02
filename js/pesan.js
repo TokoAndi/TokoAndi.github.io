@@ -37,3 +37,23 @@ function toggleFullScreen() {
     fullButton.textContent = "Full";
   }
 }
+
+// POPUP
+setTimeout(function () {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("popup").style.display = "block";
+}, 10000);
+
+// Fungsi untuk menutup popup
+function closePopup() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("popup").style.display = "none";
+}
+
+// Fungsi untuk menutup popup jika mengklik di luar area popup
+window.onclick = function (event) {
+  var overlay = document.getElementById("overlay");
+  if (event.target === overlay) {
+    closePopup();
+  }
+};
