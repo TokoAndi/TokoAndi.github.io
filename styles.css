@@ -104,7 +104,8 @@ a {
 
 /* Untuk home start */
 #home {
-  background-image: url(assets/bg-home.jpg);
+  /* background-image: url(assets/bg-home.jpg); */
+  background-color: #a9907e;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
@@ -164,7 +165,8 @@ a {
 #tentang {
   background-size: cover;
   background-position: center;
-  background-image: url(assets/bg-tentang.jpg);
+  /* background-image: url(assets/bg-tentang.jpg); */
+  background-color: #f3deba;
   padding: 100px 0;
   font-family: "Lato" sans-serif;
 }
@@ -202,7 +204,7 @@ a {
 
 .text-tentang {
   flex: 1;
-  color: #f9f9f9;
+  color: #abc4aa;
   font-size: 18px;
 }
 
@@ -227,7 +229,8 @@ a {
   list-style-type: none;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  background-image: url(assets/bg-menu.jpg);
+  /* background-image: url(assets/bg-menu.jpg); */
+  background-color: #abc4aa;
 }
 
 .container {
@@ -459,12 +462,11 @@ a {
 
 /* Untuk Kontak Start*/
 #kontak {
-  margin: 20px 0;
+  margin: 0;
 }
 .pesan-maps {
   display: flex;
-  border-radius: 15px;
-  background: #e0e0e0;
+  background: #675d50;
   height: 600px;
   justify-content: space-between;
 }
@@ -613,6 +615,7 @@ textarea.form-input {
 /* Untuk Kontak 2 Start */
 
 .kolom-container {
+  background-color: #f3deba;
   display: grid; /* Menggunakan grid layout */
   grid-template-columns: repeat(
     4,
@@ -702,7 +705,7 @@ textarea.form-input {
 
 /* Untuk Copyright Start */
 .copyright {
-  background-color: #747474;
+  background-color: #675d50;
 }
 .container-copyright {
   max-width: 100%;
@@ -712,14 +715,14 @@ textarea.form-input {
 }
 
 .container-copyright p {
-  color: #555;
+  color: #fff;
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
 }
 
 .container-copyright a {
-  color: #007bff;
+  color: #f3deba;
   text-decoration: none;
 }
 /* Untuk Copyright End */
