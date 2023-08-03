@@ -42,7 +42,7 @@ function toggleFullScreen() {
 setTimeout(function () {
   document.getElementById("overlay").style.display = "block";
   document.getElementById("popup").style.display = "block";
-}, 10000);
+}, 30000);
 
 // Fungsi untuk menutup popup
 function closePopup() {
